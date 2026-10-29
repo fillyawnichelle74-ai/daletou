@@ -1,0 +1,11 @@
+{
+  "name": "dlt-daily-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "probe": "node scripts/probe.js"
+  },
+  "engines": { "node": ">=20" }
+}
+
