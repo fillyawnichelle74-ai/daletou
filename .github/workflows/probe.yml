@@ -1,9 +1,13 @@
-name: Probe official DLT source
+name: Probe DLT history and official cross-check
 on:
   workflow_dispatch:
   push:
     paths:
       - '.github/workflows/probe.yml'
+      - 'lib/**'
+      - 'scripts/probe.js'
+      - 'test/**'
+      - 'data/draws.json'
 permissions:
   contents: read
 jobs:
@@ -16,4 +20,3 @@ jobs:
           node-version: '20'
       - run: node --test test/source.test.js
       - run: node scripts/probe.js
-
