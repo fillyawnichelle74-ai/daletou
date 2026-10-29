@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153e36">
+  <title>每日两注 · 大乐透</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+<main>
+  <header><p class="eyebrow">大乐透 / DAILY TWO</p><h1>每天，固定两注。</h1><p id="date" class="date">北京时间</p></header>
+  <section class="today" aria-label="今日固定号码">
+    <div class="section-heading"><p id="status" role="status" aria-live="polite">正在读取今日号码…</p><button id="refresh" type="button">刷新数据</button></div>
+    <div id="tickets"></div>
+    <p id="record-summary" class="record-summary"></p><p id="record-status" class="muted"></p>
+  </section>
+  <section class="details" aria-labelledby="data-title">
+    <h2 id="data-title">数据与更新</h2>
+    <p id="sync-status">正在读取同步状态…</p>
+    <dl><dt>最近一次成功同步</dt><dd id="sync-time">—</dd></dl>
+    <p class="muted">历史数据来自<a href="https://www.9011.com.cn/lottery/dlt">壹彩网公开历史页</a>，最新一期经<a href="https://www.shsportslottery.com/dlt/kjgg.html">上海体彩网公告</a>核对。最终开奖以官方公告为准。</p>
+  </section>
+  <aside class="note" aria-labelledby="note-title"><h2 id="note-title">看待号码，保持理性</h2><p id="backtest">未显示可靠预测优势。</p><p>历史拟合不代表能预测下期。固定展示不改变单注中奖概率。本页仅供参考，无购票或支付功能。</p></aside>
+  <noscript><p>请启用 JavaScript 读取已保存的每日号码。</p></noscript>
+  <footer>每日记录按北京时间保存 · 数据任务约每四小时尝试更新，可能延迟</footer>
+</main>
+</body>
+</html>
