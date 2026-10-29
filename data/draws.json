@@ -5281,6 +5281,22 @@
         12
       ],
       "sourceUrl": "https://www.lottery.gov.cn/kj/kjlb.html?dlt"
+    },
+    {
+      "issue": "26123",
+      "date": "2026-10-28",
+      "front": [
+        13,
+        18,
+        19,
+        20,
+        28
+      ],
+      "back": [
+        9,
+        11
+      ],
+      "sourceUrl": "https://www.9011.com.cn/lottery/dlt"
     }
   ]
 }
