@@ -28,6 +28,8 @@ node scripts/build.js
 3. 私有仓库会跳过全部 Pages 操作，因此首次数据验证无需先公开仓库。GitHub Free Pages 发布前，先检查仓库文件清单，再经所有者批准把独立仓库改为公开，并在 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。公开仓库及网页对知道地址的人可见。
 4. 变更可见性和 Pages 设置后，在默认分支手动重跑同一工作流。确认 Pages 部署成功，并从部署结果打开实际网址；随后用手机网络检查加载、窄屏布局、两注、截止期号和刷新保持一致。未完成真实同步、部署和手机检查前，不视为上线验收完成。
 
+若默认 GitHub Pages 项目站点部署成功，预期地址为 [https://fillyawnichelle74-ai.github.io/daletou/](https://fillyawnichelle74-ai.github.io/daletou/)；请以实际成功部署结果给出的网址为准。
+
 本地检查不等同于 GitHub Actions 真实来源读取或 Pages 发布。本说明不表示已经完成公开部署。
 
 ## JSON 数据约定
