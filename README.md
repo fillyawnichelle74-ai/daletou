@@ -30,6 +30,10 @@ node scripts/build.js
 
 本地检查不等同于 GitHub Actions 真实来源读取或 Pages 发布。本说明不表示已经完成公开部署。
 
+## JSON 数据约定
+
+`data/draws.json` 顶层的 `sourceUrl` 和 `capturedAt` 保留初始 330 期官方快照的来源与采集时间，不表示后续新增记录的来源或当前同步时间。每条 `draws[].sourceUrl` 标记该期开奖记录的实际来源；当前同步时间与状态以 `data/daily.json` 的 `lastSuccessfulSync` 和 `sourceStatus` 为准。
+
 ## 自动更新与故障恢复
 
 工作流使用 Node 20，每四小时（UTC `0 */4 * * *`，即北京时间 00、04、08、12、16、20 点）尝试更新，也支持手动运行。`main` 分支的工作流、代码、测试、页面、包配置和 README 变更会触发；`data/*.json` 不触发该更新工作流，避免数据提交循环。单实例并发保护不取消正在执行的更新。测试 → 更新 → 构建全部成功后，才提交 `data/*.json` 并推送；公开仓库随后发布同次构建的 `site/`。
