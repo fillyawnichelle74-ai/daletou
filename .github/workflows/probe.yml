@@ -1,6 +1,9 @@
 name: Probe official DLT source
 on:
   workflow_dispatch:
+  push:
+    paths:
+      - '.github/workflows/probe.yml'
 permissions:
   contents: read
 jobs:
