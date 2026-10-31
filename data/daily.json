@@ -459,8 +459,9 @@
     }
   },
   "sourceStatus": {
-    "state": "fresh",
-    "checkedAt": "2026-10-30T20:38:04.347Z",
-    "cutoffIssue": "26123"
+    "state": "stale",
+    "checkedAt": "2026-10-31T05:09:13.851Z",
+    "cutoffIssue": "26123",
+    "message": "Source timeout"
   }
 }
