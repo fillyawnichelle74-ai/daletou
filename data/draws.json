@@ -5457,6 +5457,22 @@
         10
       ],
       "sourceUrl": "https://www.9011.com.cn/lottery/dlt"
+    },
+    {
+      "issue": "26134",
+      "date": "2026-11-23",
+      "front": [
+        4,
+        15,
+        17,
+        24,
+        31
+      ],
+      "back": [
+        6,
+        9
+      ],
+      "sourceUrl": "https://www.9011.com.cn/lottery/dlt"
     }
   ]
 }
