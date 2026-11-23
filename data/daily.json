@@ -1,5 +1,5 @@
 {
-  "lastSuccessfulSync": "2026-11-22T16:08:31.412Z",
+  "lastSuccessfulSync": "2026-11-23T00:43:55.044Z",
   "records": {
     "2026-10-29": {
       "date": "2026-10-29",
@@ -3958,7 +3958,7 @@
   },
   "sourceStatus": {
     "state": "fresh",
-    "checkedAt": "2026-11-22T16:08:31.412Z",
+    "checkedAt": "2026-11-23T00:43:55.044Z",
     "cutoffIssue": "26133"
   }
 }
