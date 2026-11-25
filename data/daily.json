@@ -4262,8 +4262,9 @@
     }
   },
   "sourceStatus": {
-    "state": "fresh",
-    "checkedAt": "2026-11-25T00:31:56.844Z",
-    "cutoffIssue": "26134"
+    "state": "stale",
+    "checkedAt": "2026-11-25T14:06:07.900Z",
+    "cutoffIssue": "26134",
+    "message": "Official latest mismatch"
   }
 }
